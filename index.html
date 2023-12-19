@@ -3,66 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
+  <title>bootstrap</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .card-title a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
 </head>
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Blog</a>
-      <!-- Add navigation links or other elements as needed -->
+      <a class="navbar-brand" href="#">Desenvolupament d'aplicacions web</a>
+      
+      <!-- Search form -->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+      
     </div>
   </nav>
-
   <div class="container mt-4 content">
-    <!-- Blog post 1 -->
+    <!-- Row 1 -->
     <div class="row">
       <div class="col-sm-4">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Bases de dades</h5>
-            <p class="card-text">Some quick example text to build on the card title and make</p>
+            <h5 class="card-title"><a href="#">Bases de dades</a></h5>
+            <p class="card-text">...</p>
           </div>
-          <img src="https://cdn-icons-png.flaticon.com/512/8637/8637124.png" class="card-img-bottom" alt="...">
+          <img src="https://cdn-icons-png.flaticon.com/512/9243/9243391.png" class="card-img-bottom img-fluid" alt="...">
         </div>
       </div>
-      
       <div class="col-sm-4">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Sistemes Informàtics</h5>
-            <p class="card-text">Some quick example text to build on the card title and make</p>
+            <h5 class="card-title"><a href="#">Sistemes Informàtics</a></h5>
+            <p class="card-text">...</p>
           </div>
-          <img src="https://png.pngtree.com/element_our/20200702/ourmid/pngtree-computer-communication-material-picture-image_2290149.jpg" class="card-img-bottom" alt="...">
+          <img src="https://png.pngtree.com/element_our/20200702/ourmid/pngtree-computer-communication-material-picture-image_2290149.jpg" class="card-img-bottom img-fluid" alt="...">
         </div>
       </div>
-
       <div class="col-sm-4">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Llenguatges de marques i sistemes de gestió d'informació</h5>
-            <p class="card-text">Some quick example text to build on the card title and make</p>
-          <img src="https://marketplace-cdn.atlassian.com/files/422562e8-0358-462a-8dca-301eeb611c93?fileType=image&mode=full-fit" class="card-img-bottom" alt="...">
+            <h5 class="card-title"><a href="#">Llenguatges de marques i sistemes de gestió d'informació</a></h5>
+            <p class="card-text">...</p>
+          </div>
+          <img src="https://img.favpng.com/22/16/8/web-development-responsive-web-design-web-developer-web-application-development-png-favpng-70FxeW0K33UR8AYzFhJF2JUn3.jpg" class="card-img-bottom img-fluid" alt="...">
         </div>
       </div>
     </div>
-
-    <div class="col-sm-4">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Programació</h5>
-          <p class="card-text">Some quick example text to build on the card title and make</p>
-        <img src="https://marketplace-cdn.atlassian.com/files/422562e8-0358-462a-8dca-301eeb611c93?fileType=image&mode=full-fit" class="card-img-bottom" alt="...">
+    <div class="row mt-4">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><a href="#">Programació</a></h5>
+            <p class="card-text">...</p>
+          </div>
+          <img src="https://cdn-icons-png.flaticon.com/512/2728/2728262.png" class="card-img-bottom img-fluid" alt="...">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><a href="#">Entorns de desenvolupament</a></h5>
+            <p class="card-text">...</p>
+          </div>
+          <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7914417/github-icon-md.png" class="card-img-bottom img-fluid" alt="...">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><a href="#">Formació i orientació laboral</a></h5>
+            <p class="card-text">...</p>
+          </div>
+          <img src="https://agora.xtec.cat/ies-severo-ochoa/wp-content/uploads/usu1079/2016/03/fol1.gif" class="card-img-bottom img-fluid" alt="...">
+        </div>
       </div>
     </div>
   </div>
-    
-
-    <!-- Add more blog posts as needed -->
-
-  </div>
-  <!-- Footer -->
+  <footer class="bg-dark text-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p>&copy; 2023 Desenvolupament d'aplicacions web. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy Policy </a></li>
+            <li class="list-inline-item">|</li>
+            <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
